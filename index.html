@@ -1,0 +1,19 @@
+<body>
+  <div class="game-container">
+    <h1>TETRIS de Nicholas</h1>
+    <div class="score-display">Score: <span id="score">0</span></div>
+    <canvas id="tetris" width="300" height="600"></canvas>
+    <div class="controls">
+      <button class="game-btn" onclick="startGame()">Start Game</button>
+    </div>
+  </div>
+
+  <!-- Game Over Screen -->
+  <div class="game-over" id="gameOver">
+    <h2>Game Over!</h2>
+    <p>Final Score: <span id="finalScore">0</span></p>
+    <button class="game-btn" onclick="startGame()">Play Again</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
